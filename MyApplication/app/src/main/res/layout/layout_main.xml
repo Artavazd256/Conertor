@@ -3,4 +3,147 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/dec" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12345"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:id="@+id/displayDec" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hexadecimal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0xF9fABC2"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:id="@+id/displayHex" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Octal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0123467"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:id="@+id/displayOct" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Binary"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01101100110101"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:id="@+id/displayBin" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Positive"
+            android:id="@+id/radioButtonPositive"
+            android:layout_weight="1"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Negative"
+            android:id="@+id/radioButtonNegative"
+            android:layout_weight="1"
+            android:checked="false" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/bitSize"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:gravity="center"
+        android:id="@+id/bitSize"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dec"
+            android:id="@+id/radioButtonDec"
+            android:layout_weight="1"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hex"
+            android:id="@+id/radioButtonHex"
+            android:layout_weight="1"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oct"
+            android:id="@+id/radioButtonOct"
+            android:layout_weight="1"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bin"
+            android:id="@+id/radioButtonBin"
+            android:layout_weight="1"
+            android:checked="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/keyBord"
+        >
+
+    </LinearLayout>
+
+
 </LinearLayout>
