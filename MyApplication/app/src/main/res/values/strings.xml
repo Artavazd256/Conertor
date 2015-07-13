@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Convertor</string>
+    <string name="dec">Decimal number</string>
+    <string name="Positive">Positive Binary</string>
+    <string name="Negative">Negative Binary</string>
+    <string name="bitSize">bit size</string>
+    <string name="binary">Binary</string>
+    <string name="Octal">Octal</string>
+    <string name="hex">Hexadecimal</string>
 </resources>

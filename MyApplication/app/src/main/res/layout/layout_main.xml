@@ -14,7 +14,6 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="12345"
         android:gravity="center"
         android:background="#ffffff"
         android:id="@+id/displayDec" />
@@ -23,12 +22,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Hexadecimal"
+        android:text="@string/hex"
         android:textAppearance="?android:attr/textAppearanceSmall" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0xF9fABC2"
         android:background="#ffffff"
         android:gravity="center"
         android:id="@+id/displayHex" />
@@ -37,12 +35,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Octal"
+        android:text="@string/Octal"
         android:textAppearance="?android:attr/textAppearanceSmall" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0123467"
         android:background="#ffffff"
         android:gravity="center"
         android:id="@+id/displayOct" />
@@ -51,12 +48,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Binary"
+        android:text="@string/binary"
         android:textAppearance="?android:attr/textAppearanceSmall" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="01101100110101"
         android:background="#ffffff"
         android:gravity="center"
         android:id="@+id/displayBin" />
@@ -96,6 +92,7 @@
         android:layout_height="wrap_content"
         android:inputType="numberSigned"
         android:gravity="center"
+        android:text="8"
         android:id="@+id/bitSize"
         android:layout_gravity="center_horizontal" />
 
@@ -289,6 +286,12 @@
             android:layout_weight="1"
             android:id="@+id/button0" />
     </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/delete" />
 
 
 </LinearLayout>
